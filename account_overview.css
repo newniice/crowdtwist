@@ -33,6 +33,7 @@
     src: url('https://www.rielyrose.com/us/shop/_common/images/fonts/35A1C5_0_0.eot?#iefix') format('embedded-opentype'),url('https://www.rielyrose.com/us/shop/_common/images/fonts/35A1C5_0_0.woff2') format('woff2'),url('https://www.rielyrose.com/us/shop/_common/images/fonts/35A1C5_0_0.woff') format('woff'),url('https://www.rielyrose.com/us/shop/_common/images/fonts/35A1C5_0_0.ttf') format('truetype'),url('https://www.rielyrose.com/us/shop/_common/images/fonts/35A1C5_0_0.svg#wf') format('svg');
 }
 
+
 .fa {
     display: inline-block;
     font-family: FontAwesome;
@@ -4867,7 +4868,7 @@ input::-webkit-outer-spin-button {
 }
 
 #points-expiration .ct-header-color {
-    background-color: #686868
+    background-color: linear-gradient(135deg, #debc77, #da8f7d, #cf6492, #b476b2, #7d83c0, #64a8da, #76cbc8, #67c292) !important;
 }
 
 #points-expiration .container {
