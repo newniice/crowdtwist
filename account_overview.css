@@ -3094,7 +3094,7 @@ input::-webkit-outer-spin-button {
     display: block;
     padding: 5px;
     background-color: linear-gradient(135deg, #debc77, #da8f7d, #cf6492, #b476b2, #7d83c0, #64a8da, #76cbc8, #67c292) !important;
-    border-bottom: 1px solid #000;
+    border-bottom: 0px solid #000 !important;
     width: 100%;
     -webkit-transform: translate3d(0, 0, 0);
     position: fixed;
