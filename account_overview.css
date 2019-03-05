@@ -1723,10 +1723,10 @@ cite {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    margin: 9px 0;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 6px 0;
+    font-family: "FilsonSoftRegular" Helvetica Neue ,Helvetica,Arial,sans-serif !important;
     font-weight: 700;
-    line-height: 23px;
+    line-height: 16px !important;
     color: #000
 }
 
