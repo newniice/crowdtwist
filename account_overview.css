@@ -7310,18 +7310,24 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
         margin-right: -100%;
         clear: both;
         margin-left: 0;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(3n+2) {
         margin-left: 33.33333%;
         margin-right: -100%;
         clear: none;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(3n+3) {
         margin-left: 66.66667%;
         margin-right: -100%;
         clear: none;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 }
 
