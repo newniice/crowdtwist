@@ -7275,7 +7275,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 }
 
 #reward-list-v2 .rewards .reward {
-    border: 1px solid linear-gradient(135deg, #debc77, #da8f7d, #cf6492, #b476b2, #7d83c0, #64a8da, #76cbc8, #67c292) !important;
+    border: 0px solid #fff !important;
 
 }
 
