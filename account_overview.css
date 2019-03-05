@@ -2853,7 +2853,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 .widget .header {
     display: block;
     padding: 5px;
-    background-color: #4a90e2;
+    background: linear-gradient(135deg, #debc77, #da8f7d, #cf6492, #b476b2, #7d83c0, #64a8da, #76cbc8, #67c292) !important;
     border-bottom: 1px solid #000;
     width: 100%;
     -webkit-transform: translate3d(0,0,0);
