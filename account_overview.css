@@ -7305,7 +7305,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 
 @media (min-width: 600px) {
     #reward-list-v2 .rewards .reward {
-        width:25%;
+        width:33.33333%;
         float: left
     }
 
