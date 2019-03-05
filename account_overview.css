@@ -5462,7 +5462,8 @@ input::-webkit-outer-spin-button {
 #reward-list .rewards {
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    padding: 10px !important;
 }
 
 #reward-list .rewards:after {
@@ -5472,85 +5473,85 @@ input::-webkit-outer-spin-button {
 }
 
 #reward-list .rewards .reward {
-    border: 1px solid #ececec
+    border: 1px solid #ececec;
 }
 
 @media (min-width:400px) {
     #reward-list .rewards .reward {
         width: 50%;
-        float: left
+        float: left;
     }
     #reward-list .rewards .reward:nth-child(2n+1) {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
-        margin-left: 0
+        margin-left: 0;
     }
     #reward-list .rewards .reward:nth-child(2n+2) {
-        margin-left: 50%;
+        margin-left: 53% !important;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 }
 
 @media (min-width:600px) {
     #reward-list .rewards .reward {
         width: 33.33333%;
-        float: left
+        float: left;
     }
     #reward-list .rewards .reward:nth-child(3n+1) {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
-        margin-left: 0
+        margin-left: 0;
     }
     #reward-list .rewards .reward:nth-child(3n+2) {
-        margin-left: 33.33333%;
+        margin-left: 36% !important;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
     #reward-list .rewards .reward:nth-child(3n+3) {
         margin-left: 66.66667%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 }
 
 @media (min-width:800px) {
     #reward-list .rewards .reward {
         width: 25%;
-        float: left
+        float: left;
     }
     #reward-list .rewards .reward:nth-child(4n+1) {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
-        margin-left: 0
+        margin-left: 0;
     }
     #reward-list .rewards .reward:nth-child(4n+2) {
-        margin-left: 25%;
+        margin-left: 27% !important;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
     #reward-list .rewards .reward:nth-child(4n+3) {
         margin-left: 50%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
     #reward-list .rewards .reward:nth-child(4n+4) {
         margin-left: 75%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 }
 
 #reward-list .rewards .reward img {
     cursor: pointer;
-    width: 100%
+    width: 100%;
 }
 
 #reward-list .rewards .reward .content {
-    padding: 5px
+    padding: 15px !important;
 }
 
 #reward-list .rewards .reward .content .title {
@@ -5558,7 +5559,7 @@ input::-webkit-outer-spin-button {
     height: 22px !important;
     overflow: hidden;
     margin-bottom: 2px !important;
-    font-size: .875rem
+    font-size: .875rem;
 }
 
 #reward-list .rewards .reward .content .row {
@@ -5566,108 +5567,108 @@ input::-webkit-outer-spin-button {
     *zoom: 1;
     display: block;
     margin-bottom: 4px;
-    height: 15px
+    height: 15px;
 }
 
 #reward-list .rewards .reward .content .row p {
-    margin: 0
+    margin: 0;
 }
 
 #reward-list .rewards .reward .content .row .locked,
 #reward-list .rewards .reward .content .row .points {
-    float: left
+    float: left;
 }
 
 #reward-list .rewards .reward .content .row .ends,
 #reward-list .rewards .reward .content .row .quantity {
-    float: right
+    float: right;
 }
 
 #reward-list .rewards .reward .content .row .locked {
-    font-weight: 700
+    font-weight: 700;
 }
 
 #reward-list .rewards .reward .content .row .locked i {
-    margin-right: 5px
+    margin-right: 5px;
 }
 
 #reward-list .rewards .reward .content .row .ends p {
     color: #b8b8b8;
-    font-style: italic
+    font-style: italic;
 }
 
 #reward-list .rewards .reward .content .row .points p {
     text-transform: capitalize;
-    color: #c22034
+    color: #c22034;
 }
 
 #reward-list .rewards .reward .content .row .quantity {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 #reward-list .rewards .reward .content .row .quantity p.sold-out {
-    font-weight: 700
+    font-weight: 700;
 }
 
 #reward-list .rewards .reward .disabled {
     filter: alpha(Opacity=30);
-    opacity: .3
+    opacity: .3;
 }
 
 #social-connect-widget {
     font-size: .875rem;
-    width: 100%
+    width: 100%;
 }
 
 #social-connect-widget .notification-container {
     margin-top: 10px;
     margin-bottom: 0;
-    clear: both
+    clear: both;
 }
 
 #social-connect-widget .notification-container .fb-refresh {
     color: inherit;
     margin-left: 8px;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 #social-connect-widget .social-net-container {
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 #social-connect-widget .social-net-container+.social-net-container {
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 #social-connect-widget .social-net-container i.social-net {
-    font-size: 1.25rem
+    font-size: 1.25rem;
 }
 
 #social-connect-widget .social-net-container .point-value .fa-check-circle {
     position: relative;
     bottom: 2px;
     margin-right: 5px;
-    float: left
+    float: left;
 }
 
 @media (min-width:500px) {
     #social-connect-widget .social-net-container .point-value .fa-check-circle {
-        margin-top: 14px
+        margin-top: 14px;
     }
 }
 
 #social-connect-widget .fb-requirement-text {
     margin-top: 10px;
-    font-size: .8125rem
+    font-size: .8125rem;
 }
 
 #social-connect-widget .fb-requirement-text:empty {
-    display: none
+    display: none;
 }
 
 #social-connect-widget .terms {
-    display: none
+    display: none;
 }
 
 #social-connect-widget .button-container,
