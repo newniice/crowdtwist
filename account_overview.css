@@ -7357,7 +7357,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 
 #reward-list-v2 .rewards .reward img {
     cursor: pointer;
-    width: 100%
+    width: 100%;
 }
 
 #reward-list-v2 .rewards .reward .content {
@@ -7367,10 +7367,11 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 
 #reward-list-v2 .rewards .reward .content .title {
     display: block;
-    height: 35px;
+    height: 20px !important;
     overflow: hidden;
     margin-bottom: 10px;
-    font-size: .875rem
+    font-size: .9rem;
+    font-weight: lighter;
 }
 
 #reward-list-v2 .rewards .reward .content .row {
