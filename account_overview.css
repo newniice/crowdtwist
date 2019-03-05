@@ -7289,19 +7289,23 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
-        margin-left: 0
+        margin-left: 0;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(2n+2) {
         margin-left: 50%;
         margin-right: -100%;
-        clear: none
+        clear: none;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
     }
 }
 
 @media (min-width: 600px) {
     #reward-list-v2 .rewards .reward {
-        width:33.33333%;
+        width:25%;
         float: left
     }
 
