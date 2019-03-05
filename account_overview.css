@@ -7271,18 +7271,19 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 #reward-list-v2 .rewards:after {
     content: " ";
     display: block;
-    clear: both
+    clear: both;
 }
 
 #reward-list-v2 .rewards .reward {
     border: 0px solid #fff !important;
+    padding: 5px;
 
 }
 
 @media (min-width: 400px) {
     #reward-list-v2 .rewards .reward {
         width:50%;
-        float: left
+        float: left;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(2n+1) {
@@ -7292,6 +7293,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
         margin-left: 0;
         padding-right: 5px !important;
         padding-left: 5px !important;
+        padding-top: 5px !important;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(2n+2) {
@@ -7300,13 +7302,14 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
         clear: none;
         padding-right: 5px !important;
         padding-left: 5px !important;
+        padding-top: 5px !important;
     }
 }
 
 @media (min-width: 600px) {
     #reward-list-v2 .rewards .reward {
         width:33.33333%;
-        float: left
+        float: left;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(3n+1) {
