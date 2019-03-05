@@ -7377,8 +7377,8 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 #reward-list-v2 .rewards .reward .content .row {
     overflow: hidden;
     *zoom:1;display: block;
-    margin-bottom: 4px;
-    height: 15px
+    margin-bottom: -6px;
+    height: 20px
 }
 
 #reward-list-v2 .rewards .reward .content .row p {
