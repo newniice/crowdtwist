@@ -7309,51 +7309,52 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
-        margin-left: 0
+        margin-left: 0;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(3n+2) {
         margin-left: 33.33333%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(3n+3) {
         margin-left: 66.66667%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 }
 
 @media (min-width: 800px) {
     #reward-list-v2 .rewards .reward {
         width:25%;
-        float: left
+        float: left;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(4n+1) {
         margin-left: 0;
         margin-right: -100%;
         clear: both;
-        margin-left: 0
+        margin-left: 0;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(4n+2) {
         margin-left: 25%;
         margin-right: -100%;
-        clear: none
+        clear: none;
+        padding: 5px !important;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(4n+3) {
         margin-left: 50%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 
     #reward-list-v2 .rewards .reward:nth-child(4n+4) {
         margin-left: 75%;
         margin-right: -100%;
-        clear: none
+        clear: none;
     }
 }
 
