@@ -4931,7 +4931,7 @@ input::-webkit-outer-spin-button {
 }
 
 #redeem {
-    padding-bottom: 10px;
+    padding-bottom: 2px !important;
     font-size: .8125rem;
     overflow: hidden;
     *zoom: 1
