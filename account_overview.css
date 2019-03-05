@@ -7251,12 +7251,12 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 #reward-list-v2 #redeemFilter select {
     width: 100%;
     padding: 5px;
-    display: block
+    display: block;
 }
 
 @media (min-width: 600px) {
     #reward-list-v2 #redeemFilter select {
-        display:none
+        display:none;
     }
 }
 
@@ -7264,6 +7264,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px !important;
 }
 
 #reward-list-v2 .rewards:after {
@@ -7360,7 +7361,8 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 }
 
 #reward-list-v2 .rewards .reward .content {
-    padding: 5px
+    padding: 10px !important;
+    text-align: center !important;
 }
 
 #reward-list-v2 .rewards .reward .content .title {
