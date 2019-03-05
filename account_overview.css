@@ -6312,10 +6312,11 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
 }
 
 #redeem-v2 {
-    padding-bottom: 10px;
+    padding-bottom: 5px !important;
     font-size: .8125rem;
     overflow: hidden;
-    *zoom:1}
+    *zoom:1;
+}
 
 #redeem-v2 li,#redeem-v2 ul {
     list-style: none
